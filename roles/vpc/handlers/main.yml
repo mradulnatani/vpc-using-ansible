@@ -1,2 +1,4 @@
 ---
 # handlers file for roles/vpc
+- name: Refresh AWS resources
+  command: aws ec2 describe-vpcs --region {{ aws_region }}

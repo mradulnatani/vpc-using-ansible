@@ -1,2 +1,5 @@
 ---
 # vars file for roles/vpc
+vpc_name: "VPC-using-Ansible"
+vpc_cidr: "10.0.0.0/16"
+aws_region: "ap-south-1"
